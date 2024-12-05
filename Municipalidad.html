@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guía de Trámites de la Municipalidad</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #007BFF;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #007BFF;
+            padding: 15px;
+        }
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+        section {
+            padding: 20px;
+            margin: 20px;
+            background-color: white;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h2, h3 {
+            color: #007BFF;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        /* Estilo para los subniveles colapsables */
+        .subniveles {
+            margin-left: 20px;
+            display: none;
+        }
+        .active {
+            display: block;
+        }
+        .collapsible {
+            cursor: pointer;
+            padding: 10px;
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            text-align: left;
+            font-size: 16px;
+            width: 100%;
+            border-radius: 5px;
+        }
+        .collapsible:after {
+            content: " ▼";
+        }
+        .active .collapsible:after {
+            content: " ▲";
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Guía de Trámites de la Municipalidad</h1>
+        <p>Todo lo que necesitas saber para realizar tus trámites municipales</p>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="#impuestos">Impuestos</a></li>
+            <li><a href="#tasas-servicios">Tasas y Servicios</a></li>
+            <li><a href="#multas-infracciones">Multas e Infracciones</a></li>
+            <li><a href="#registro-civil">Registro Civil</a></li>
+            <li><a href="#licencia-conducir">Licencia de Conducir</a></li>
+            <li><a href="#actividad-comercial">Actividad Comercial / Industrial</a></li>
+            <li><a href="#limpieza-higiene">Limpieza e Higiene Urbana</a></li>
+            <li><a href="#educacion">Educación</a></li>
+            <li><a href="#adultos-mayores">Adultos Mayores</a></li>
+            <li><a href="#discapacidad">Discapacidad</a></li>
+        </ul>
+    </nav>
+
+    <section id="impuestos">
+        <button class="collapsible">Impuestos</button>
+	<div class="subniveles">
+        <p>Información sobre cómo pagar y gestionar tus impuestos municipales.</p>
+
+        <!-- Subniveles de detalle -->
+        <button class="collapsible">Impuesto Municipal</button>
+        <div class="subniveles">
+            <p>Este impuesto se aplica sobre la propiedad de bienes inmuebles en la municipalidad. El propietario debe pagar anualmente según la valoración catastral del inmueble.</p>
+            <ul>
+                <li>Requisitos: Documento de identidad, recibo de pago anterior (si lo tiene).</li>
+                <li>Cómo pagar: En línea, en la ventanilla de la municipalidad o en bancos autorizados.</li>
+                <li>Fecha límite: 31 de diciembre de cada año.</li>
+            </ul>
+        </div>
+
+        <button class="collapsible">Impuesto sobre Comercio</button>
+        <div class="subniveles">
+            <p>Este impuesto aplica a todas las actividades comerciales realizadas dentro de la jurisdicción municipal.</p>
+            <ul>
+                <li>Requisitos: Registro de la actividad comercial, licencia de funcionamiento.</li>
+                <li>Cómo pagar: En línea o en la ventanilla del Departamento de Comercio.</li>
+                <li>Fecha límite: 15 de enero de cada año.</li>
+            </ul>
+        </div>
+
+        <button class="collapsible">Impuesto sobre el Transporte</button>
+        <div class="subniveles">
+            <p>Este impuesto es aplicable a los vehículos de transporte público y privado que circulan dentro del municipio.</p>
+            <ul>
+                <li>Requisitos: Registro del vehículo, documento de identidad.</li>
+                <li>Cómo pagar: En línea, en la municipalidad o en entidades bancarias autorizadas.</li>
+                <li>Fecha límite: 30 de junio de cada año.</li>
+            </ul>
+        </div>
+
+        <button class="collapsible">Impuesto Vehicular</button>
+        <div class="subniveles">
+            <p>Este impuesto es aplicable a la propiedad de vehículos motorizados (autos, motos, camiones, etc.) registrados en el municipio.</p>
+            <ul>
+                <li>Requisitos: Título de propiedad del vehículo, identificación del propietario.</li>
+                <li>Cómo pagar: A través del sitio web de la municipalidad o en sucursales autorizadas.</li>
+                <li>Fecha límite: 31 de marzo de cada año.</li>
+            </ul>
+        </div>
+	</div>
+    </section>
+	<section id="tasas-servicios">
+        <button class="collapsible">Tasas y Servicios</button>
+	<div class="subniveles">
+
+        <p>Guía para el pago de tasas y otros servicios municipales.</p>
+	
+	<!-- Subniveles de detalle -->
+    <button class="collapsible">Tasa de Recolección de Residuos</button>
+    <div class="subniveles">
+        <p>Esta tasa se aplica a todos los ciudadanos que tienen un servicio de recolección de residuos sólidos en su domicilio.</p>
+        <ul>
+            <li>Requisitos: Documento de identidad, comprobante de domicilio.</li>
+            <li>Cómo pagar: En línea, en la ventanilla del Departamento de Recolección de Residuos, o en entidades bancarias autorizadas.</li>
+            <li>Fecha límite: 31 de enero de cada año.</li>
+        </ul>
+    </div>
+
+    <button class="collapsible">Tasa de Alumbrado Público</button>
+    <div class="subniveles">
+        <p>Este servicio cubre los gastos del alumbrado público en las calles y avenidas de la ciudad.</p>
+        <ul>
+            <li>Requisitos: Documento de identidad, comprobante de pago anterior (si aplica).</li>
+            <li>Cómo pagar: A través del sitio web de la municipalidad o en las oficinas de servicios públicos.</li>
+            <li>Fecha límite: 30 de junio de cada año.</li>
+        </ul>
+    </div>
+
+    <button class="collapsible">Servicio de Agua Potable</button>
+    <div class="subniveles">
+        <p>El servicio de agua potable cubre el suministro de agua para consumo doméstico e industrial.</p>
+        <ul>
+            <li>Requisitos: Documento de identidad, recibo de agua anterior (si lo tiene).</li>
+            <li>Cómo pagar: En línea, en las oficinas del Departamento de Agua, o en bancos autorizados.</li>
+            <li>Fecha límite: 15 de cada mes.</li>
+        </ul>
+    </div>
+
+    <button class="collapsible">Servicio de Saneamiento</button>
+    <div class="subniveles">
+        <p>Este servicio se encarga del mantenimiento y operación de las redes de alcantarillado y tratamiento de aguas residuales.</p>
+        <ul>
+            <li>Requisitos: Documento de identidad, recibo de pago anterior (si aplica).</li>
+            <li>Cómo pagar: A través de la plataforma en línea de la municipalidad o en las agencias bancarias autorizadas.</li>
+            <li>Fecha límite: 31 de diciembre de cada año.</li>
+        </ul>
+    </div>
+
+    <button class="collapsible">Tasa de Inspección Sanitaria</button>
+    <div class="subniveles">
+        <p>Esta tasa se aplica a los establecimientos comerciales que necesitan una inspección sanitaria periódica.</p>
+        <ul>
+            <li>Requisitos: Licencia de funcionamiento del establecimiento, identificación del propietario.</li>
+            <li>Cómo pagar: En la ventanilla del Departamento de Inspección Sanitaria o en línea.</li>
+            <li>Fecha límite: Dentro de los 30 días posteriores a la aprobación de la licencia.</li>
+        </ul>
+    </div>
+    </div>
+    </section>
+
+    <section id="multas-infracciones">
+        <h2>Multas e Infracciones</h2>
+        <p>Detalles sobre cómo pagar y recurrir multas e infracciones.</p>
+    </section>
+
+    <section id="registro-civil">
+        <h2>Registro Civil</h2>
+        <p>Trámites relacionados con nacimientos, defunciones, y otros actos del registro civil.</p>
+    </section>
+
+    <section id="licencia-conducir">
+        <h2>Licencia de Conducir</h2>
+        <p>Requisitos y procedimientos para obtener o renovar tu licencia de conducir.</p>
+    </section>
+
+    <section id="actividad-comercial">
+        <h2>Actividad Comercial / Industrial</h2>
+        <p>Guía para la obtención de permisos para actividades comerciales e industriales.</p>
+    </section>
+
+    <section id="limpieza-higiene">
+        <h2>Limpieza e Higiene Urbana</h2>
+        <p>Información sobre la gestión de residuos y servicios de limpieza en la ciudad.</p>
+    </section>
+
+    <section id="educacion">
+        <h2>Educación</h2>
+        <p>Trámites y servicios relacionados con la educación pública municipal.</p>
+    </section>
+
+    <section id="adultos-mayores">
+        <h2>Adultos Mayores</h2>
+        <p>Servicios y beneficios para los adultos mayores de la comunidad.</p>
+    </section>
+
+    <section id="discapacidad">
+        <h2>Discapacidad</h2>
+        <p>Trámites y servicios destinados a personas con discapacidad.</p>
+    </section>
+
+
+    <footer>
+        <p>&copy; 2024 Municipalidad - Todos los derechos reservados</p>
+    </footer>
+
+    <script>
+        // Obtener todos los botones con la clase "collapsible"
+        var coll = document.getElementsByClassName("collapsible");
+
+        // Agregar un evento a cada botón
+        for (var i = 0; i < coll.length; i++) {
+            coll[i].addEventListener("click", function() {
+                // Alternar la clase "active"
+                this.classList.toggle("active");
+
+                // Obtener el siguiente elemento (el subnivel de detalles)
+                var content = this.nextElementSibling;
+
+                // Si el contenido está oculto, mostrarlo; si está visible, ocultarlo
+                if (content.style.display === "block") {
+                    content.style.display = "none";
+                } else {
+                    content.style.display = "block";
+                }
+            });
+        }
+    </script>
+</body>
+</html>
